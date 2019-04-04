@@ -1,0 +1,17 @@
+{
+  "proxies": [
+    {
+      "proxy_name":"plaza",
+      "local": ":1091",
+      "remote": "127.0.0.1:9092"
+    },
+    {
+      "proxy_name":"plaza",
+      "local": ":1092",
+      "remote": "127.0.0.1:9092"
+    }
+  ],
+  "conn_timeout": 30,
+  "buffer_size": 1024,
+  "max_conn_one_ip": 20
+}
